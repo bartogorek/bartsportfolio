@@ -6,7 +6,7 @@ body {
   font-family: 'Exo 2', sans-serif;
   letter-spacing: 0.04rem;
   text-align: justify;
-  background-color: white;
+  background-color: #f7f9fc;
 }
 
 .main {
@@ -21,7 +21,6 @@ body {
 /******************/
 .header {
   display: inline-block;
-  background-color: white;
 }
 #avatar {
   float: left;
@@ -40,7 +39,7 @@ body {
   letter-spacing: 0.10em;
 }
 .site-name {
-  font-weight: 600;
+  font-weight: 600; 
 }
 /*.typewriter h6 {
   overflow: hidden;
@@ -83,8 +82,16 @@ nav a:hover {
 .section {
   padding: 1rem 1.4rem;
 }
-.section p {
-  padding: 1.8rem 0;
+.section h4 {
+  margin-bottom: 1.8rem;
+}
+
+.my-btn {
+  background-color: grey;
+  border-color: grey;
+}
+.my-btn:hover {
+  background-color: #545b9b;
 }
 
 /**********/
@@ -138,7 +145,14 @@ footer {
     margin: 0 4px; 
   }
   .social-media-icons a {
-  padding: 0 .3rem;
+  padding: 0 .2rem;
+  }
+  .section h4 {
+    text-align: center;
+  }
+  .my-btn {
+    margin: 0 auto;
+    display: block;
   }
 }
 /*
